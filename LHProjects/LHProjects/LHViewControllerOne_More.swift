@@ -8,6 +8,14 @@
 
 import UIKit
 
+class A {
+    var sideLength:Double = 0.0;
+}
+
+class B: A {
+    
+}
+
 class LHViewControllerOne_More: UIViewController {
 
     override func viewDidLoad() {
@@ -67,4 +75,21 @@ class LHViewControllerOne_More: UIViewController {
         return 1;
     }
     //对象和类。。。19页
+    //重写父类的方法，需要override重写标记
+    //结构体
+    enum Rank:Int {
+        case Ace = 1;
+        case Two,Three;
+        case Jack;
+        func simpleDescription() -> String {
+            switch self {
+            case .Ace:
+                return "ace";
+            default:
+                return String(self.rawValue);
+            }
+        }
+    }
+
+    
 }
