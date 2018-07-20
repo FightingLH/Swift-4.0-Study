@@ -7,13 +7,24 @@
 //
 
 import UIKit
-
-class A {
-    var sideLength:Double = 0.0;
+//协议和扩展
+protocol ExampleProtocol {
+    var simpleDescription:String{get};
+    mutating func adjust();
 }
 
-class B: A {
-    
+class SimpleClass: ExampleProtocol {
+    var simpleDescription: String = "A very simple class";
+    var anotherProperty:Int = 69105;
+    func adjust() {
+        simpleDescription += "Now 100% adjusted";
+    }
+}
+
+enum PricterError:Error {
+    case OutOfPaper
+    case NoToner
+    case OnFire
 }
 
 class LHViewControllerOne_More: UIViewController {
@@ -23,8 +34,32 @@ class LHViewControllerOne_More: UIViewController {
         self.view.backgroundColor = UIColor.white;
         // Do any additional setup after loading the view.
        print(self.moreValues(scores: [1,2,3]));
+        
+        let a = SimpleClass();
+        a.adjust();
+        _ = a.simpleDescription;
+        struct SimpleStructure:ExampleProtocol
+        {
+            var simpleDescription: String = "A simple structure";
+            mutating func adjust() {
+                simpleDescription += "(adjusted)";
+            }
+            
+        }
+        var b = SimpleStructure();
+        b.adjust();
+        _ = b.simpleDescription;
+        
+        _ = try?send(job: 100, toPrinter: "test");
     }
 
+    func send(job:Int,toPrinter printerName:String)throws -> String {
+        if printerName == "Nerver Has Toner" {
+            throw PricterError.NoToner;
+        }
+        return "Job sent"
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -91,5 +126,6 @@ class LHViewControllerOne_More: UIViewController {
         }
     }
 
+    //错误处理
     
 }
