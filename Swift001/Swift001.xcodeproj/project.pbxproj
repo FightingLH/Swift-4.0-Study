@@ -14,6 +14,7 @@
 		797408F1210173CB0007A5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797408EF210173CB0007A5FD /* LaunchScreen.storyboard */; };
 		797408FC210173CB0007A5FD /* Swift001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797408FB210173CB0007A5FD /* Swift001Tests.swift */; };
 		79740907210173CB0007A5FD /* Swift001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79740906210173CB0007A5FD /* Swift001UITests.swift */; };
+		79740915210176160007A5FD /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79740914210176160007A5FD /* File.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		79740902210173CB0007A5FD /* Swift001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79740906210173CB0007A5FD /* Swift001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift001UITests.swift; sourceTree = "<group>"; };
 		79740908210173CB0007A5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79740914210176160007A5FD /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				797408E6210173CB0007A5FD /* AppDelegate.swift */,
 				797408E8210173CB0007A5FD /* ViewController.swift */,
+				79740914210176160007A5FD /* File.rtf */,
 				797408EA210173CB0007A5FD /* Main.storyboard */,
 				797408ED210173CB0007A5FD /* Assets.xcassets */,
 				797408EF210173CB0007A5FD /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				797408F1210173CB0007A5FD /* LaunchScreen.storyboard in Resources */,
 				797408EE210173CB0007A5FD /* Assets.xcassets in Resources */,
+				79740915210176160007A5FD /* File.rtf in Resources */,
 				797408EC210173CB0007A5FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
