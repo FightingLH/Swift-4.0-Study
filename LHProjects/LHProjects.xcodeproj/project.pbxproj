@@ -16,6 +16,7 @@
 		796E0A0B1F749DED003FDBF2 /* LHProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796E0A0A1F749DED003FDBF2 /* LHProjectsUITests.swift */; };
 		796E0A1A1F74A480003FDBF2 /* LHViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796E0A191F74A480003FDBF2 /* LHViewControllerOne.swift */; };
 		796E0A1C1F74A4C1003FDBF2 /* LHViewControllerOne_More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796E0A1B1F74A4C1003FDBF2 /* LHViewControllerOne_More.swift */; };
+		799F5BD1216064730075D219 /* BasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F5BD0216064730075D219 /* BasicsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		796E0A0C1F749DED003FDBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796E0A191F74A480003FDBF2 /* LHViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHViewControllerOne.swift; sourceTree = "<group>"; };
 		796E0A1B1F74A4C1003FDBF2 /* LHViewControllerOne_More.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHViewControllerOne_More.swift; sourceTree = "<group>"; };
+		799F5BD0216064730075D219 /* BasicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,19 @@
 		796E09E91F749DEC003FDBF2 /* LHProjects */ = {
 			isa = PBXGroup;
 			children = (
+				799F5BCF216064470075D219 /* Basics */,
+				799F5BCB216064470075D219 /* Classes */,
+				799F5BC5216064460075D219 /* Closures */,
+				799F5BC7216064460075D219 /* Enumerations */,
+				799F5BC8216064470075D219 /* Functions */,
+				799F5BCE216064470075D219 /* Inheritance */,
+				799F5BCA216064470075D219 /* Initialization */,
+				799F5BC4216064460075D219 /* Method */,
+				799F5BCC216064470075D219 /* Property */,
+				799F5BC3216064460075D219 /* String */,
+				799F5BC6216064460075D219 /* Structures */,
+				799F5BC9216064470075D219 /* Subscripts */,
+				799F5BCD216064470075D219 /* Type */,
 				796E0A181F74A419003FDBF2 /* 01篇-传值 */,
 				796E09EA1F749DEC003FDBF2 /* AppDelegate.swift */,
 				796E09EC1F749DEC003FDBF2 /* ViewController.swift */,
@@ -137,6 +152,98 @@
 				796E0A1B1F74A4C1003FDBF2 /* LHViewControllerOne_More.swift */,
 			);
 			name = "01篇-传值";
+			sourceTree = "<group>";
+		};
+		799F5BC3216064460075D219 /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		799F5BC4216064460075D219 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		799F5BC5216064460075D219 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
+		799F5BC6216064460075D219 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		799F5BC7216064460075D219 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		799F5BC8216064470075D219 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		799F5BC9216064470075D219 /* Subscripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subscripts;
+			sourceTree = "<group>";
+		};
+		799F5BCA216064470075D219 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Initialization;
+			sourceTree = "<group>";
+		};
+		799F5BCB216064470075D219 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		799F5BCC216064470075D219 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		799F5BCD216064470075D219 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		799F5BCE216064470075D219 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		799F5BCF216064470075D219 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				799F5BD0216064730075D219 /* BasicsViewController.swift */,
+			);
+			path = Basics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +384,7 @@
 				796E0A1A1F74A480003FDBF2 /* LHViewControllerOne.swift in Sources */,
 				796E09ED1F749DEC003FDBF2 /* ViewController.swift in Sources */,
 				796E09EB1F749DEC003FDBF2 /* AppDelegate.swift in Sources */,
+				799F5BD1216064730075D219 /* BasicsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +631,7 @@
 				796E0A111F749DED003FDBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		796E0A121F749DED003FDBF2 /* Build configuration list for PBXNativeTarget "LHProjectsTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +640,7 @@
 				796E0A141F749DED003FDBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		796E0A151F749DED003FDBF2 /* Build configuration list for PBXNativeTarget "LHProjectsUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +649,7 @@
 				796E0A171F749DED003FDBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
